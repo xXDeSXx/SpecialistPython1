@@ -2,4 +2,6 @@
 # Т.е. программа запрашивает ввод, если вводится любое значение отличное от слова “хватит”,
 # то программа запрашивает ввод снова.
 
-# TODO: your code here
+line = input("Type something>>>")
+while line != "enough":
+    line = input("Type something>>>")
