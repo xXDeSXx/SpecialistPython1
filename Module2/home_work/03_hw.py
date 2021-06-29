@@ -28,4 +28,9 @@
 # 19 189.81 Rub.
 # 20 199.80 Rub.
 
-# TODO: your code here
+price_for_one = float(input("Type price for one piece here>> "))
+cnt = 1
+while cnt <= 20:
+    total_price = price_for_one * cnt
+    print("Price for", cnt, "peace is ", format(total_price, '.2f'))
+    cnt = cnt + 1
