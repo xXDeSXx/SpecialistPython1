@@ -3,4 +3,13 @@
 # Формат выходных данных: Требуется вывести тип числа текстом
 
 number = float(input())  # Считываем вещественное число
+if number>0:
+    print("Number", number, "is positive")
+else:
+    print("Number", number, " is negative")
+
+
+
+
+
 
