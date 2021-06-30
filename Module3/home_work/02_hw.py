@@ -2,7 +2,12 @@
 # в диапазоне от -100 до 100. В списке должно быть n - элементов.
 # Подсказка:
 # для получения случайного числа используйте функцию randint() модуля random
+
 import random
+length = 9
+cnt = 0
 numbers = []
-# print(random.randint(10, 20))  # раскомментируйте, чтобы посмотреть работу функции randint
-# TODO: your code here
+while cnt < length:
+    numbers.append(random.randint(-100, 100))
+    cnt = cnt + 1
+print(numbers)
